@@ -265,6 +265,13 @@
           }
         }
       },
+      "client": {
+        "properties": {
+          "ip": {
+            "type": "ip"
+          }
+        }
+      },
       "host": {
         "properties": {
           "cpu": {
