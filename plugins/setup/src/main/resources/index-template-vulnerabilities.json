@@ -232,6 +232,23 @@
           }
         }
       },
+      "client": {
+        "properties": {
+          "bytes": {
+            "type": "long"
+          },
+          "ip": {
+            "type": "ip"
+          },
+          "mac": {
+            "ignore_above": 1024,
+            "type": "keyword"
+          },
+          "port": {
+            "type": "long"
+          }
+        }
+      },
       "host": {
         "properties": {
           "architecture": {
