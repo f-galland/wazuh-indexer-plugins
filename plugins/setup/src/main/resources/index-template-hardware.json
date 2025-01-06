@@ -265,6 +265,20 @@
           }
         }
       },
+      "client": {
+        "properties": {
+          "ip": {
+            "type": "ip"
+          }
+        }
+      },
+      "destination": {
+        "properties": {
+          "bytes": {
+            "type": "long"
+          }
+        }
+      },
       "host": {
         "properties": {
           "cpu": {

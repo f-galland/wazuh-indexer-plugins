@@ -235,6 +235,13 @@
           }
         }
       },
+      "client": {
+        "properties": {
+          "ip": {
+            "type": "ip"
+          }
+        }
+      },
       "process": {
         "properties": {
           "args": {
